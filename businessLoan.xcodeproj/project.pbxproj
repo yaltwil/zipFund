@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B4D558545F19E8695AF51C2F /* Pods_businessLoan.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA753A900C9426D34B1FA63E /* Pods_businessLoan.framework */; };
 		CD635A8A1ECFE36D006C3F64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD635A891ECFE36D006C3F64 /* AppDelegate.swift */; };
 		CD635A8C1ECFE36D006C3F64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD635A8B1ECFE36D006C3F64 /* ViewController.swift */; };
 		CD635A8F1ECFE36D006C3F64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD635A8D1ECFE36D006C3F64 /* Main.storyboard */; };
@@ -15,6 +16,18 @@
 		CD635A971ECFE36D006C3F64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD635A951ECFE36D006C3F64 /* LaunchScreen.storyboard */; };
 		CD635AA21ECFE36D006C3F64 /* businessLoanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD635AA11ECFE36D006C3F64 /* businessLoanTests.swift */; };
 		CD635AAD1ECFE36D006C3F64 /* businessLoanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD635AAC1ECFE36D006C3F64 /* businessLoanUITests.swift */; };
+		CD635ABB1ECFE4D5006C3F64 /* mainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD635ABA1ECFE4D5006C3F64 /* mainCell.swift */; };
+		CD635ABD1ED05E6F006C3F64 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CD635ABC1ED05E6F006C3F64 /* GoogleService-Info.plist */; };
+		CD6B0EE11ED08B3900137E8A /* OperatingProfit+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B0ED71ED08B3900137E8A /* OperatingProfit+CoreDataClass.swift */; };
+		CD6B0EE21ED08B3900137E8A /* OperatingProfit+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B0ED81ED08B3900137E8A /* OperatingProfit+CoreDataProperties.swift */; };
+		CD6B0EE31ED08B3900137E8A /* CostsOfGoodsSold+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B0ED91ED08B3900137E8A /* CostsOfGoodsSold+CoreDataClass.swift */; };
+		CD6B0EE41ED08B3900137E8A /* CostsOfGoodsSold+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B0EDA1ED08B3900137E8A /* CostsOfGoodsSold+CoreDataProperties.swift */; };
+		CD6B0EE51ED08B3900137E8A /* Expenses+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B0EDB1ED08B3900137E8A /* Expenses+CoreDataClass.swift */; };
+		CD6B0EE61ED08B3900137E8A /* Expenses+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B0EDC1ED08B3900137E8A /* Expenses+CoreDataProperties.swift */; };
+		CD6B0EE71ED08B3900137E8A /* GrossReceipts+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B0EDD1ED08B3900137E8A /* GrossReceipts+CoreDataClass.swift */; };
+		CD6B0EE81ED08B3900137E8A /* GrossReceipts+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B0EDE1ED08B3900137E8A /* GrossReceipts+CoreDataProperties.swift */; };
+		CD6B0EE91ED08B3900137E8A /* GrossProfit+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B0EDF1ED08B3900137E8A /* GrossProfit+CoreDataClass.swift */; };
+		CD6B0EEA1ED08B3900137E8A /* GrossProfit+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6B0EE01ED08B3900137E8A /* GrossProfit+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		28FA96AD4DE4477D4ABB6A95 /* Pods-businessLoan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-businessLoan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-businessLoan/Pods-businessLoan.debug.xcconfig"; sourceTree = "<group>"; };
+		68F37CE88A3039FC9F98F95D /* Pods-businessLoan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-businessLoan.release.xcconfig"; path = "Pods/Target Support Files/Pods-businessLoan/Pods-businessLoan.release.xcconfig"; sourceTree = "<group>"; };
 		CD635A861ECFE36D006C3F64 /* businessLoan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = businessLoan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD635A891ECFE36D006C3F64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD635A8B1ECFE36D006C3F64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +64,19 @@
 		CD635AA81ECFE36D006C3F64 /* businessLoanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = businessLoanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD635AAC1ECFE36D006C3F64 /* businessLoanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = businessLoanUITests.swift; sourceTree = "<group>"; };
 		CD635AAE1ECFE36D006C3F64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD635ABA1ECFE4D5006C3F64 /* mainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainCell.swift; sourceTree = "<group>"; };
+		CD635ABC1ED05E6F006C3F64 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CD6B0ED71ED08B3900137E8A /* OperatingProfit+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OperatingProfit+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CD6B0ED81ED08B3900137E8A /* OperatingProfit+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "OperatingProfit+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CD6B0ED91ED08B3900137E8A /* CostsOfGoodsSold+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CostsOfGoodsSold+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CD6B0EDA1ED08B3900137E8A /* CostsOfGoodsSold+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CostsOfGoodsSold+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CD6B0EDB1ED08B3900137E8A /* Expenses+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Expenses+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CD6B0EDC1ED08B3900137E8A /* Expenses+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Expenses+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CD6B0EDD1ED08B3900137E8A /* GrossReceipts+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GrossReceipts+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CD6B0EDE1ED08B3900137E8A /* GrossReceipts+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GrossReceipts+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		CD6B0EDF1ED08B3900137E8A /* GrossProfit+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GrossProfit+CoreDataClass.swift"; sourceTree = "<group>"; };
+		CD6B0EE01ED08B3900137E8A /* GrossProfit+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "GrossProfit+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FA753A900C9426D34B1FA63E /* Pods_businessLoan.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_businessLoan.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4D558545F19E8695AF51C2F /* Pods_businessLoan.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,13 +105,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B712372D0A172D23E77DF415 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA753A900C9426D34B1FA63E /* Pods_businessLoan.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CD635A7D1ECFE36D006C3F64 = {
 			isa = PBXGroup;
 			children = (
+				CD6B0ED71ED08B3900137E8A /* OperatingProfit+CoreDataClass.swift */,
+				CD6B0ED81ED08B3900137E8A /* OperatingProfit+CoreDataProperties.swift */,
+				CD6B0ED91ED08B3900137E8A /* CostsOfGoodsSold+CoreDataClass.swift */,
+				CD6B0EDA1ED08B3900137E8A /* CostsOfGoodsSold+CoreDataProperties.swift */,
+				CD6B0EDB1ED08B3900137E8A /* Expenses+CoreDataClass.swift */,
+				CD6B0EDC1ED08B3900137E8A /* Expenses+CoreDataProperties.swift */,
+				CD6B0EDD1ED08B3900137E8A /* GrossReceipts+CoreDataClass.swift */,
+				CD6B0EDE1ED08B3900137E8A /* GrossReceipts+CoreDataProperties.swift */,
+				CD6B0EDF1ED08B3900137E8A /* GrossProfit+CoreDataClass.swift */,
+				CD6B0EE01ED08B3900137E8A /* GrossProfit+CoreDataProperties.swift */,
 				CD635A881ECFE36D006C3F64 /* businessLoan */,
 				CD635AA01ECFE36D006C3F64 /* businessLoanTests */,
 				CD635AAB1ECFE36D006C3F64 /* businessLoanUITests */,
 				CD635A871ECFE36D006C3F64 /* Products */,
+				CDA915139D0A1F30C1D97771 /* Pods */,
+				B712372D0A172D23E77DF415 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +148,11 @@
 		CD635A881ECFE36D006C3F64 /* businessLoan */ = {
 			isa = PBXGroup;
 			children = (
+				CD635ABC1ED05E6F006C3F64 /* GoogleService-Info.plist */,
 				CD635A891ECFE36D006C3F64 /* AppDelegate.swift */,
 				CD635A8B1ECFE36D006C3F64 /* ViewController.swift */,
 				CD635A8D1ECFE36D006C3F64 /* Main.storyboard */,
+				CD635ABA1ECFE4D5006C3F64 /* mainCell.swift */,
 				CD635A931ECFE36D006C3F64 /* Assets.xcassets */,
 				CD635A951ECFE36D006C3F64 /* LaunchScreen.storyboard */,
 				CD635A981ECFE36D006C3F64 /* Info.plist */,
@@ -128,6 +179,15 @@
 			path = businessLoanUITests;
 			sourceTree = "<group>";
 		};
+		CDA915139D0A1F30C1D97771 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28FA96AD4DE4477D4ABB6A95 /* Pods-businessLoan.debug.xcconfig */,
+				68F37CE88A3039FC9F98F95D /* Pods-businessLoan.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CD635AB11ECFE36D006C3F64 /* Build configuration list for PBXNativeTarget "businessLoan" */;
 			buildPhases = (
+				0CCD5749A4FDDAAA2F6F79E4 /* [CP] Check Pods Manifest.lock */,
 				CD635A821ECFE36D006C3F64 /* Sources */,
 				CD635A831ECFE36D006C3F64 /* Frameworks */,
 				CD635A841ECFE36D006C3F64 /* Resources */,
+				664EF25B8768925BDD7E20F9 /* [CP] Embed Pods Frameworks */,
+				4D95DABD23745DCA5F0847C4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -236,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD635A971ECFE36D006C3F64 /* LaunchScreen.storyboard in Resources */,
+				CD635ABD1ED05E6F006C3F64 /* GoogleService-Info.plist in Resources */,
 				CD635A941ECFE36D006C3F64 /* Assets.xcassets in Resources */,
 				CD635A8F1ECFE36D006C3F64 /* Main.storyboard in Resources */,
 			);
@@ -257,14 +321,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0CCD5749A4FDDAAA2F6F79E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4D95DABD23745DCA5F0847C4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-businessLoan/Pods-businessLoan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		664EF25B8768925BDD7E20F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-businessLoan/Pods-businessLoan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CD635A821ECFE36D006C3F64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CD6B0EE11ED08B3900137E8A /* OperatingProfit+CoreDataClass.swift in Sources */,
 				CD635A8C1ECFE36D006C3F64 /* ViewController.swift in Sources */,
+				CD6B0EEA1ED08B3900137E8A /* GrossProfit+CoreDataProperties.swift in Sources */,
 				CD635A921ECFE36D006C3F64 /* businessLoan.xcdatamodeld in Sources */,
+				CD635ABB1ECFE4D5006C3F64 /* mainCell.swift in Sources */,
+				CD6B0EE61ED08B3900137E8A /* Expenses+CoreDataProperties.swift in Sources */,
+				CD6B0EE81ED08B3900137E8A /* GrossReceipts+CoreDataProperties.swift in Sources */,
+				CD6B0EE31ED08B3900137E8A /* CostsOfGoodsSold+CoreDataClass.swift in Sources */,
 				CD635A8A1ECFE36D006C3F64 /* AppDelegate.swift in Sources */,
+				CD6B0EE41ED08B3900137E8A /* CostsOfGoodsSold+CoreDataProperties.swift in Sources */,
+				CD6B0EE21ED08B3900137E8A /* OperatingProfit+CoreDataProperties.swift in Sources */,
+				CD6B0EE51ED08B3900137E8A /* Expenses+CoreDataClass.swift in Sources */,
+				CD6B0EE71ED08B3900137E8A /* GrossReceipts+CoreDataClass.swift in Sources */,
+				CD6B0EE91ED08B3900137E8A /* GrossProfit+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +537,7 @@
 		};
 		CD635AB21ECFE36D006C3F64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28FA96AD4DE4477D4ABB6A95 /* Pods-businessLoan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = businessLoan/Info.plist;
@@ -426,6 +550,7 @@
 		};
 		CD635AB31ECFE36D006C3F64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68F37CE88A3039FC9F98F95D /* Pods-businessLoan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = businessLoan/Info.plist;
@@ -509,6 +634,7 @@
 				CD635AB31ECFE36D006C3F64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD635AB41ECFE36D006C3F64 /* Build configuration list for PBXNativeTarget "businessLoanTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +643,7 @@
 				CD635AB61ECFE36D006C3F64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD635AB71ECFE36D006C3F64 /* Build configuration list for PBXNativeTarget "businessLoanUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +652,7 @@
 				CD635AB91ECFE36D006C3F64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
